@@ -1,0 +1,4 @@
+{"error":0.000005142372655198013,"velocity":0.07327952041007804,"option":{"activation":"tanh","errorThresh":1e-7,"callbackPeriod":20,"iterations":5000,"hiddenLayers":[123,48,25,20]}}
+{"error":0.00003278923311453892,"velocity":0.09865129295417832,"option":{"activation":"tanh","errorThresh":1e-7,"callbackPeriod":20,"iterations":5000,"hiddenLayers":[60,40,7,18,16]}}
+{"error":0.0000033114157608284323,"velocity":0.10447342696608332,"option":{"activation":"tanh","errorThresh":1e-7,"callbackPeriod":20,"iterations":5000,"hiddenLayers":[30,37,13,18]}}
+{"error":0.000002095306958430473,"velocity":0.11959344169660385,"option":{"activation":"tanh","errorThresh":1e-7,"callbackPeriod":20,"iterations":5000,"hiddenLayers":[66,75,16,7]}}

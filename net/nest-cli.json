@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/trader/src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "webpack": true,
+    "tsConfigPath": "apps/trader/tsconfig.app.json"
+  },
+  "projects": {
+    "trader": {
+      "type": "application",
+      "root": "apps/trader",
+      "entryFile": "main",
+      "sourceRoot": "apps/trader/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/trader/tsconfig.app.json"
+      }
+    },
+    "cmd": {
+      "type": "application",
+      "root": "apps/cmd",
+      "entryFile": "main",
+      "sourceRoot": "apps/cmd/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/cmd/tsconfig.app.json"
+      }
+    },
+    "profit": {
+      "type": "library",
+      "root": "libs/profit",
+      "entryFile": "index",
+      "sourceRoot": "libs/profit/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/profit/tsconfig.lib.json"
+      }
+    },
+    "types": {
+      "type": "library",
+      "root": "libs/types",
+      "entryFile": "index",
+      "sourceRoot": "libs/types/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/types/tsconfig.lib.json"
+      }
+    }
+  },
+  "monorepo": true,
+  "root": "apps/trader"
+}

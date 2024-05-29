@@ -1,0 +1,1 @@
+export type EventCallback = (message: string) => void;  
